@@ -20,17 +20,20 @@
 三.发布版本：
     
    [v3.0.0](https://github.com/ambition119/FlinkSQL/tree/v3.0.0)   待开发
-         使用最新发布版本的flink, 流批处理一体化实现
+         使用最新发布版本的flink 1.9版本或者更高:
+             
+             [flink-sql-parser] flink自带的sql解析
+             流批处理一体化实现
   
   
    [v2.0.0](https://github.com/ambition119/FlinkSQL/tree/v2.0.0)   2019年4月
    
-        blink-client 接口定义
-        blink-sql    stream和batch table的sql解析
-        blink-libraries 自定义source, sink, side开发
-        blink-batch  BatchTableSource和BatchTableSink
-        blink-stream StreamTableSource和StreamTableSink
-        blink-job  batch/stream job 提交
+        blink-client    接口定义
+        blink-sql/calcite   stream和batch table的sql解析
+        blink-libraries   自定义source, sink, side开发
+        blink-batch   BatchTableSource和BatchTableSink
+        blink-stream  StreamTableSource和StreamTableSink
+        blink-job   batch/stream job 提交
    
    SQL书写语法参考Flink issues和对应提供的doc:
         [SQL DDL ISSUE](https://issues.apache.org/jira/browse/FLINK-8039),
